@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  transition: 0.3s;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.top-right {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 9999;
+  padding: 5px 10px;
+  background-color: #ddd;
+  border: 1px solid #888;
+}
+
+#box {
+  width: 150px;
+  height: 100px;
+  background-color: rgb(158, 200, 214);
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.dark-mode {
+  background-color: #111;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #ddd;
+}
